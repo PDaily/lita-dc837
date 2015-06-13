@@ -1,6 +1,6 @@
 # lita-dc837
 
-TODO: Add a description of the plugin.
+Collection of random 'features' for the DC837 Slack clan chat.
 
 ## Installation
 
@@ -12,8 +12,12 @@ gem "lita-dc837"
 
 ## Configuration
 
-TODO: Describe any configuration attributes the plugin exposes.
+Add animate safe search config to `lita_config.rb`
+
+```ruby
+config.handlers.animate.safe_search = :off
+```
 
 ## Usage
 
-TODO: Describe the plugin's features and how to use them.
+You'll figure it out.
